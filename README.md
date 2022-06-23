@@ -67,7 +67,7 @@ The code was slow, relatively. It could be tightened up further, especially if i
 
 ![Pic 2017 OG Code](Resources/2017%20All%20Stocks%20Analysis%201.0.PNG))
 
-![Pic 2017 OG Code](Resources/2018%20All%20Stocks%20Analysis%201.0.png)
+![Pic 2018 OG Code](Resources/2018%20All%20Stocks%20Analysis%201.0.PNG)
 
 	Original Code 2017 = 626.25 ms		Original Code 2018 = 671.87 ms
 
