@@ -54,22 +54,20 @@ Next j
 
 If statements were used within the `for` loop to collect the necessary data as the macros went over the data within each set. This key script was fleshed out so when run it would query an end user for which year they wanted, then using the data from that specific year, use `for` loops to answer what the total daily volume and return for each stock was. 
 This data was then displayed into an efficiently designed table with static and conditional formatting to get information across faster. Finally, ease of use was implemented for the end user with buttons to run the macros.
-
-Using the completed macro, the requested results of all the stocks could be compared between the two years provided
+Using the completed macro, the requested results of all the stocks could be compared between the two years provided:
 
 ![Pic 2017 report](Resources/Stock_Analysis_2017.png)
 
 ![Pic 2018 report](Resources/Stock_Analysis_2018.png)
 
 Noticeably that 2017 was a better year across the board for nearly every stock. But this was not the end of the analysis. At least not the analysis on the macro itself…
-
-The code was slow, relatively. It could be tightened up further, especially if it was to be scalable. This would be a necessary step, due to the nature of the data that was being computed. Stocks are not small data sets. 
+The code was slow, relatively. It could be tightened up further, especially if it was to be scalable. This would be a necessary step, due to the nature of the data that was being computed. Stocks are not small data sets, and slow code only gets slower the more it has to do. Refactoring finds the correct tools for the job, instead of the one created for the time being.
 
 ![Pic 2017 OG Code](Resources/2017%20All%20Stocks%20Analysis%201.0.PNG))
 
 ![Pic 2018 OG Code](Resources/2018%20All%20Stocks%20Analysis%201.0.PNG)
 
-	Original Code 2017 = 626.25 ms		Original Code 2018 = 671.87 ms
+Original Code 2017 = 626.25 ms		Original Code 2018 = 671.87 ms
 
 Within the refactored code, the main difference was the removal of the nested `for` loops, and its replacement with `if-then` statements utilizing arrays. The made the task of collecting all of the data a tad faster, since the data was already found, instead of looping through it again.
 
