@@ -67,7 +67,7 @@ The code was slow, relatively. It could be tightened up further, especially if i
 
 ![Pic 2018 OG Code](Resources/2018%20All%20Stocks%20Analysis%201.0.PNG)
 
-Original Code 2017 = 626.25 ms		Original Code 2018 = 671.87 ms
+Original Code 2017 = 626.25 ms	/  Original Code 2018 = 671.87 ms
 
 Within the refactored code, the main difference was the removal of the nested `for` loops, and its replacement with `if-then` statements utilizing arrays. The made the task of collecting all of the data a tad faster, since the data was already found, instead of looping through it again.
 
@@ -105,7 +105,7 @@ The actual difference between the original and refactored code can be most clear
 
 ![Pic of refactored code 2018](Resources/VBA_Challenge_2018.PNG)
 
-	Refactored Code 2017 = 109.37 ms		Refactored Code 2018 = 93.75 ms
+Refactored Code 2017 = 109.37 ms / Refactored Code 2018 = 93.75 ms
 
  ## Summary of the Analysis
 	
