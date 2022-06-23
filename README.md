@@ -57,17 +57,17 @@ This data was then displayed into an efficiently designed table with static and 
 
 Using the completed macro, the requested results of all the stocks could be compared between the two years provided
 
-![Pic 2017 report](Resources/Stock_Analysis_2017)
+![Pic 2017 report](Resources/Stock_Analysis_2017.png)
 
-![Pic 2018 report](Resources/Stock_Analysis_2018)
+![Pic 2018 report](Resources/Stock_Analysis_2018.png)
 
 Noticeably that 2017 was a better year across the board for nearly every stock. But this was not the end of the analysis. At least not the analysis on the macro itself…
 
 The code was slow, relatively. It could be tightened up further, especially if it was to be scalable. This would be a necessary step, due to the nature of the data that was being computed. Stocks are not small data sets. 
 
-![Pic 2017 OG Code](Resources/2017 All Stocks Analysis 1.0.png)
+![Pic 2017 OG Code](Resources/2017\ All\ Stocks\ Analysis\ 1.0.png)
 
-![Pic 2017 OG Code](Resources/2018 All Stocks Analysis 1.0.png)
+![Pic 2017 OG Code](Resources/2018\ All\ Stocks\ Analysis\ 1.0.png)
 
 	Original Code 2017 = 626.25 ms		Original Code 2018 = 671.87 ms
 
