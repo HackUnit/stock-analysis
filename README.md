@@ -54,7 +54,7 @@ Next j
 
 
 
-## The First Go
+### The First Go
 If statements were used within the `for` loop to collect the necessary data as the macros went over the data within each set. This key script was fleshed out so when run it would query an end user for which year they wanted, then using the data from that specific year, use `for` loops to answer what the total daily volume and return for each stock was. 
 This data was then displayed into an efficiently designed table with static and conditional formatting to get information across faster. Finally, ease of use was implemented for the end user with buttons to run the macros.
 Using the completed macro, the requested results of all the stocks could be compared between the two years provided:
@@ -72,7 +72,7 @@ The code was slow, relatively. It could be tightened up further, especially if i
 
 Original Code 2017 = 626.25 ms	/  Original Code 2018 = 671.87 ms
 
-## Refactoring takes effect
+### Refactoring takes effect
 Within the refactored code, the main difference was the removal of the nested `for` loops, and its replacement with `if-then` statements utilizing arrays. The made the task of collecting all of the data a tad faster, since the data was already found, instead of looping through it again.
 
 ```
