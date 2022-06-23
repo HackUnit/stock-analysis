@@ -65,9 +65,9 @@ Noticeably that 2017 was a better year across the board for nearly every stock. 
 
 The code was slow, relatively. It could be tightened up further, especially if it was to be scalable. This would be a necessary step, due to the nature of the data that was being computed. Stocks are not small data sets. 
 
-![Pic 2017 OG Code](Resources/2017\ All\ Stocks\ Analysis\ 1.0.png)
+![Pic 2017 OG Code](Resources/2017%20All%20Stocks%20Analysis%201.0.PNG))
 
-![Pic 2017 OG Code](Resources/2018\ All\ Stocks\ Analysis\ 1.0.png)
+![Pic 2017 OG Code](Resources/2018%20All%20Stocks%20Analysis%201.0.png)
 
 	Original Code 2017 = 626.25 ms		Original Code 2018 = 671.87 ms
 
