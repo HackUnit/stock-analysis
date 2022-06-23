@@ -50,8 +50,7 @@ startingPrice = Cells(j, 6).Value
                  
 Next j
 ```
-<sub>		\ Original code /</sub>
-
+</br>
 
 
 ### The First Go
@@ -98,8 +97,7 @@ For i = 2 To RowCount
     
     Next i
 ```
-<sub>		\ Refactored code/</sub>
-
+</br>
 
 
 The actual difference between the original and refactored code can be most clearly seen in actual milliseconds. The calculation time was roughly six times faster for both datasets. This improvement was necessary if the code was to be sustainable for future use where it would be scaled further.
