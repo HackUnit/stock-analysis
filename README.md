@@ -52,6 +52,8 @@ Next j
 ```
 <sub>		\ Original code /</sub>
 
+
+
 If statements were used within the `for` loop to collect the necessary data as the macros went over the data within each set. This key script was fleshed out so when run it would query an end user for which year they wanted, then using the data from that specific year, use `for` loops to answer what the total daily volume and return for each stock was. 
 This data was then displayed into an efficiently designed table with static and conditional formatting to get information across faster. Finally, ease of use was implemented for the end user with buttons to run the macros.
 Using the completed macro, the requested results of all the stocks could be compared between the two years provided:
@@ -95,6 +97,7 @@ For i = 2 To RowCount
     Next i
 ```
 <sub>		\ Refactored code/</sub>
+
 
 
 The actual difference between the original and refactored code can be most clearly seen in actual milliseconds. The calculation time was roughly six times faster for both datasets. This improvement was necessary if the code was to be sustainable for future use where it would be scaled further.
