@@ -55,20 +55,21 @@ Next j
 If statements were used within the `for` loop to collect the necessary data as the macros went over the data within each set. This key script was fleshed out so when run it would query an end user for which year they wanted, then using the data from that specific year, use `for` loops to answer what the total daily volume and return for each stock was. 
 This data was then displayed into an efficiently designed table with static and conditional formatting to get information across faster. Finally, ease of use was implemented for the end user with buttons to run the macros.
 
-[Pic 2017 report]
+Using the completed macro, the requested results of all the stocks could be compared between the two years provided
 
-Using the completed macro, the requested results of all the stocks could be compared between the two years provided.
+![Pic 2017 report](Resources/Stock_Analysis_2017)
 
-[Pic 2018 report]
+![Pic 2018 report](Resources/Stock_Analysis_2018)
 
 Noticeably that 2017 was a better year across the board for nearly every stock. But this was not the end of the analysis. At least not the analysis on the macro itself…
 
 The code was slow, relatively. It could be tightened up further, especially if it was to be scalable. This would be a necessary step, due to the nature of the data that was being computed. Stocks are not small data sets. 
 
-[Pictures of times for original code both years]
+![Pic 2017 OG Code](Resources/2017 All Stocks Analysis 1.0.png)
 
-OG 2017 = 626.25 ms
-OG 2018 = 671.87 ms
+![Pic 2017 OG Code](Resources/2018 All Stocks Analysis 1.0.png)
+
+	Original Code 2017 = 626.25 ms		Original Code 2018 = 671.87 ms
 
 Within the refactored code, the main difference was the removal of the nested `for` loops, and its replacement with `if-then` statements utilizing arrays. The made the task of collecting all of the data a tad faster, since the data was already found, instead of looping through it again.
 
@@ -100,11 +101,13 @@ For i = 2 To RowCount
 
 The actual difference between the original and refactored code can be most clearly seen in actual milliseconds. The calculation time was roughly six times faster for both datasets. This improvement was necessary if the code was to be sustainable for future use where it would be scaled further.
 
-Refactored 2017 = 109.37 ms
-Refactored 2018 = 93.75 ms
 
 
-![Pics of refactored times](Resources/VBA_Challenge_2017.PNG)
+![Pic of refactored code 2017](Resources/VBA_Challenge_2017.PNG)
+
+![Pic of refactored code 2018](Resources/VBA_Challenge_2018.PNG)
+
+	Refactored Code 2017 = 109.37 ms		Refactored Code 2018 = 93.75 ms
 
  ## Summary of the Analysis
 	
