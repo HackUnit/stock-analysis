@@ -60,7 +60,8 @@ This data was then displayed on a separate worksheet with static and conditional
 ![Pic 2017 report](Resources/Stock_Analysis_2017.png)
 
 ![Pic 2018 report](Resources/Stock_Analysis_2018.png)
-
+</br>
+### The First Reults
 Noticeably 2017 was a better year across the board for nearly every stock. This gave a complete look over the datasheet and allowed for more information to be derrived from these datasheets besides the obvious. But, this was not the end of the analysis. At least not the analysis on the macro itself.
 The code was slow, relatively. It could be tightened up further, especially if it was to be scalable. This would be a necessary step, due to the nature of the data that was being captured and computed. Stocks are not small data sets, and slow code only gets slower the more it has to do. Refactoring finds the correct tools for the job, instead of the one created for the time being.
 
